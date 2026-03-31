@@ -16,7 +16,7 @@ jobs:
   check_compilation_and_coding_style:
     name: Check compilation and coding style
     runs-on: ubuntu-latest
-    if: github.repository != env.MIRROR_SSH_URL
+    if: github.repository != 'EpitechPGE1-2025/G-DOP-200-PAR-2-1-bschocolatine-52'
     container:
       image: epitechcontent/epitest-docker
     steps:
