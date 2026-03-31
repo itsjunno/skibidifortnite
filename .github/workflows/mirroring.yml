@@ -14,5 +14,5 @@ jobs:
       - name: mirror
         uses: pixta-dev/repository-mirroring-action@v1
         with:
-          target_repo_url: git@github.com:TON_ORG/NOM_REPO_DEST.git
+          target_repo_url: git@github.com:EpitechPGE1-2025/G-DOP-200-PAR-2-1-chocolatine-52.git
           ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
